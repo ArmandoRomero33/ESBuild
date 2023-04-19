@@ -1,9 +1,8 @@
-import React, { Component } from "react"; 
-import ReactDom from "react-dom"; 
-import App from './components/App'; 
+import React from "react";
+import ReactDOM  from "react-dom";
+import App from './components/App';
 
 ReactDOM.render(
-    <App message="Platzi"/>,
+    <App message="Platzi ESBuild Example"/>,
     document.getElementById("app")
-);
-
+)
